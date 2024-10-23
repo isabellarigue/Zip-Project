@@ -178,7 +178,7 @@ class Huffman:
 
 ###### Test ######
 
-f = open("test.txt", 'r')
+f = open("test.txt", 'r') #TODO add path to the file
 texto_str = f.read()
 
 huffman = Huffman(texto_str)
